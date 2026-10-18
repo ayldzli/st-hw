@@ -8,7 +8,6 @@ flips = np.random.choice(
 )
 
 x, y = np.unique(flips, return_counts=True)
-
 bars = plt.bar(x, y, color=["red", "blue"])
 
 plt.text(
